@@ -1,1 +1,0 @@
-Raccomando i gentili visualizzatori di aprire PRIMA il file index.HTML
