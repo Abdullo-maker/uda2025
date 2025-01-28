@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+
+body
+{
+   background-image: linear-gradient(to top right, rgb(221, 221, 221), rgb(252, 252, 252));
+   background-repeat: repeat-y;
+   
+}
+
+
+
+#header
+{
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    padding: 10px;
+    
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+#header:hover
+{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    
+}
+
+#img
+{
+    width: 270px;
+    border-radius: 5%;
+}
+#text
+{
+    font-size: 25px;
+    font-family: "Roboto", serif;
+    margin-left: 10px;
+  
+    text-align-last: left;
+    word-spacing: 1px;
+    letter-spacing: 0.02em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 300px;
+}
+
+#text #nome
+{
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-family: "Dancing Script", serif;
+}
+
+#title-projects
+{
+    font-family: "Dancing Script", serif;
+    font-size: 55px;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+    width: fit-content
+
+}
+
+#projectsection
+{
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 40px;
+    padding: 1;
+    padding: 10px;
+    
+}
+
+.project-card
+{
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    background: #f4f4f4;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover 
+{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.img-project
+{   
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    float: left;
+}
+
+.img-project:hover
+{   
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.text-card
+{
+    font-family: "Smooch Sans", serif;
+    position: relative;
+    left: 25px;
+    
+}
+
+.link
+{
+    text-decoration: none;
+    color: black;
+}
+
